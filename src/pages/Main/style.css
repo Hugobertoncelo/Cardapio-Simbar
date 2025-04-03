@@ -1,0 +1,33 @@
+main {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-image: url("../../assets/bg-fundo.jpg");
+}
+
+section.secao-cards {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section.secao-cards div h2 {
+  color: goldenrod;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+section.secao-cards div.container-cards {
+  background-color: rgba(243, 243, 243, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
