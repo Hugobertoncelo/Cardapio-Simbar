@@ -17,8 +17,9 @@ footer p {
 }
 
 a {
-  padding: 5px;
+  padding: 6px;
   color: black;
+  margin-right: 4px;
 }
 
 a:hover {
