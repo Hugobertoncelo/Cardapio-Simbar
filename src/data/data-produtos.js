@@ -17,7 +17,7 @@ import cerveja from "../assets/img/cerveja.jpg";
 import refrigerante from "../assets/img/refrigerante.jpg";
 import suco from "../assets/img/suco.jpg";
 import whiskey from "../assets/img/whiskey.jpg";
-import agua from "../assets/img/agua.jpg";
+import agua from "../assets/img/agua.avif";
 import aperol from "../assets/img/aperolspritz.jpg";
 // import tomahwankSteak from "../assets/img/tomahawk-steak.jpg";
 // import saladaCeasar from "../assets/img/salada-ceasar.jpg";
@@ -137,18 +137,18 @@ export const produtos = [
     id: 13,
     nome: "Água",
     categoria: "Sem Álcool",
-    preco: 3.99,
+    preco: 2.0,
     descricao:
-      "Uma carne que tem um ótimo nível de marmoreio e um sabor delicado, podendendo ser feita tanto na grelha ou na frigideira",
+      "Água geladinha",
     imagem: agua,
   },
   {
     id: 14,
-    nome: "Suco",
+    nome: "Água com gás",
     categoria: "Sem Álcool",
-    preco: 19.99,
+    preco: 2.5,
     descricao:
-      "Mais puro suco de laranjas holandesas frescas e levemente adocicada",
+      "Água com g´s super gelada",
     imagem: suco,
   },
   {
