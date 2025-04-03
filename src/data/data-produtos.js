@@ -10,7 +10,6 @@ import heineken from "../assets/img/heineken.jpg";
 import antartica from "../assets/img/antartica.jpeg";
 import guarana from "../assets/img/guarana2.jpg";
 import aguagas from "../assets/img/aguagas.jpg";
-import whiskey from "../assets/img/whiskey.jpg";
 import agua from "../assets/img/agua.jpg";
 import guaravita from "../assets/img/guaravita.jpg";
 import cocacola from "../assets/img/cocacola2.jpg";
@@ -194,15 +193,6 @@ export const produtos = [
   },
   {
     id: 20,
-    nome: "Whisky",
-    categoria: "Destilados",
-    preco: 9.8,
-    descricao:
-      "Um poderoso whisky sabor bourbon, envelhecido em barris de carvalho branco carbonizado",
-    imagem: whiskey,
-  },
-  {
-    id: 21,
     nome: "Cachaça",
     categoria: "Destilados",
     preco: 2.0,
@@ -211,7 +201,7 @@ export const produtos = [
     imagem: seleta,
   },
   {
-    id: 22,
+    id: 21,
     nome: "Paçoca",
     categoria: "Variedades",
     preco: 1.0,
