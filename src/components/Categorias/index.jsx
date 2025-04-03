@@ -5,6 +5,8 @@ import icone2 from "../../assets/porcao.png";
 import icone3 from "../../assets/agua.png";
 import icone4 from "../../assets/bebidas.png";
 import icone5 from "../../assets/destilado.png";
+import icone6 from "../../assets/caldos.png";
+import icone7 from "../../assets/salgados.png";
 
 const Categorias = ({ handleFiltro, botaoClicado }) => {
   return (
@@ -40,6 +42,22 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
         >
           <img src={icone3} alt="ícone" />
           Sem Álcool
+        </button>
+
+        <button
+          className={botaoClicado === "Caldos" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Caldos")}
+        >
+          <img src={icone6} alt="ícone" />
+          Caldos
+        </button>
+
+        <button
+          className={botaoClicado === "Salgados" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Salgados")}
+        >
+          <img src={icone7} alt="ícone" />
+          Salgados
         </button>
 
         <button
