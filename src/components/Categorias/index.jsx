@@ -1,6 +1,6 @@
 import "./style.css";
 
-import icone1 from "../../assets/entrada.png";
+import icone1 from "../../assets/variedades.png";
 import icone2 from "../../assets/porcao.png";
 import icone3 from "../../assets/agua.png";
 import icone4 from "../../assets/bebidas.png";
@@ -11,11 +11,11 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
     <section className="secao-categorias">
       <div className="container-botoes">
         <button
-          className={botaoClicado === "Entradas" ? "acenderBtn" : "apagarBtn"}
-          onClick={() => handleFiltro("Entradas")}
+          className={botaoClicado === "Cervejas" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Cervejas")}
         >
-          <img src={icone1} alt="ícone" />
-          Entradas
+          <img src={icone4} alt="ícone" />
+          Cervejas
         </button>
 
         <button
@@ -27,6 +27,14 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
         </button>
 
         <button
+          className={botaoClicado === "Destilados" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Destilados")}
+        >
+          <img src={icone5} alt="ícone" />
+          Destilados
+        </button>
+
+        <button
           className={botaoClicado === "Sem Álcool" ? "acenderBtn" : "apagarBtn"}
           onClick={() => handleFiltro("Sem Álcool")}
         >
@@ -35,19 +43,11 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
         </button>
 
         <button
-          className={botaoClicado === "Cervejas" ? "acenderBtn" : "apagarBtn"}
-          onClick={() => handleFiltro("Cervejas")}
+          className={botaoClicado === "Variedades" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Variedades")}
         >
-          <img src={icone4} alt="ícone" />
-          Cervejas
-        </button>
-
-        <button
-          className={botaoClicado === "Destilados" ? "acenderBtn" : "apagarBtn"}
-          onClick={() => handleFiltro("Destilados")}
-        >
-          <img src={icone5} alt="ícone" />
-          Destilados
+          <img src={icone1} alt="ícone" />
+          Variedades
         </button>
       </div>
     </section>

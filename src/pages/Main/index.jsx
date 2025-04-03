@@ -3,16 +3,16 @@ import { useState } from "react";
 import {
   buscarProduto,
   filtrarProdutos,
-  produtosEntradas,
+  produtosCervejas,
 } from "../../service/index";
 import CampoDeBusca from "../../components/CampoDeBusca";
 import Categorias from "../../components/Categorias";
 import Cards from "../../components/Cards";
 
 const Main = () => {
-  const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntradas);
+  const [dadosFiltrados, setDadosFiltrados] = useState(produtosCervejas);
   const [textoBuscaDigitado, setTextoBuscaDigitado] = useState("");
-  const [botaoClicado, setBotaoClicado] = useState("Entradas");
+  const [botaoClicado, setBotaoClicado] = useState("Cervejas");
 
   const handleBusca = (textoDigitado) => {
     setTextoBuscaDigitado(textoDigitado);
