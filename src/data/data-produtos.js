@@ -24,6 +24,7 @@ import feijoada from "../assets/img/feijoada.jpg";
 import aipim from "../assets/img/aipim.jpg";
 import canjica from "../assets/img/canjica.jpg";
 import mocoto from "../assets/img/mocoto.webp";
+import waffle from "../assets/img/waffle.jpg";
 
 export const produtos = [
   {
@@ -226,6 +227,15 @@ export const produtos = [
   },
   {
     id: 23,
+    nome: "Waffle",
+    categoria: "Salgados",
+    preco: 10.0,
+    descricao:
+      "Waffle artesanal, leve e crocante por fora, macio por dentro, abraçando generosas fatias de presunto de qualidade e queijo muçarela derretido. Uma explosão de sabor.",
+    imagem: waffle,
+  },
+  {
+    id: 24,
     nome: "Feijoada",
     categoria: "Caldos",
     preco: 10.0,
@@ -234,7 +244,7 @@ export const produtos = [
     imagem: feijoada,
   },
   {
-    id: 24,
+    id: 25,
     nome: "Mocotó",
     categoria: "Caldos",
     preco: 10.0,
@@ -243,7 +253,7 @@ export const produtos = [
     imagem: mocoto,
   },
   {
-    id: 25,
+    id: 26,
     nome: "Aipim com Frango",
     categoria: "Caldos",
     preco: 10.0,
@@ -252,7 +262,7 @@ export const produtos = [
     imagem: aipim,
   },
   {
-    id: 26,
+    id: 27,
     nome: "Canjiquinha com Costelinha de Porco",
     categoria: "Caldos",
     preco: 10.0,
